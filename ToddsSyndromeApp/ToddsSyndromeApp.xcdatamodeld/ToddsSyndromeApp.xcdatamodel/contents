@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Patient" representedClassName="Patient" syncable="YES">
+        <attribute name="gender" attributeType="String" syncable="YES"/>
+        <attribute name="haveMigraines" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="probabilityForTSyndrome" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="surname" attributeType="String" syncable="YES"/>
+        <attribute name="usedDrugs" attributeType="Boolean" syncable="YES"/>
+        <attribute name="yearOfBirth" attributeType="Integer 16" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Patient" positionX="-63" positionY="-18" width="128" height="148"/>
+    </elements>
+</model>

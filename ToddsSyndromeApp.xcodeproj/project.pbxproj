@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		549567C01DA23C77001C1BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549567BF1DA23C77001C1BE6 /* main.m */; };
+		549567C31DA23C77001C1BE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549567C21DA23C77001C1BE6 /* AppDelegate.m */; };
+		549567C91DA23C77001C1BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549567C71DA23C77001C1BE6 /* Main.storyboard */; };
+		549567CC1DA23C77001C1BE6 /* ToddsSyndromeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 549567CA1DA23C77001C1BE6 /* ToddsSyndromeApp.xcdatamodeld */; };
+		549567CE1DA23C77001C1BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549567CD1DA23C77001C1BE6 /* Assets.xcassets */; };
+		549567D11DA23C77001C1BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549567CF1DA23C77001C1BE6 /* LaunchScreen.storyboard */; };
+		549567DC1DA23C78001C1BE6 /* ToddsSyndromeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549567DB1DA23C78001C1BE6 /* ToddsSyndromeAppTests.m */; };
+		549567E71DA23C78001C1BE6 /* ToddsSyndromeAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549567E61DA23C78001C1BE6 /* ToddsSyndromeAppUITests.m */; };
+		549567F71DA23E53001C1BE6 /* PatientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549567F61DA23E53001C1BE6 /* PatientsViewController.m */; };
+		549567FC1DA24631001C1BE6 /* PatientDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549567FB1DA24631001C1BE6 /* PatientDetailsViewController.m */; };
+		54B6DFB41DA250F3003BBE54 /* Patient+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B6DFB11DA250F3003BBE54 /* Patient+CoreDataProperties.m */; };
+		54B6DFB51DA250F3003BBE54 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B6DFB31DA250F3003BBE54 /* Patient.m */; };
+		54B6DFB81DA25DF6003BBE54 /* PatientService.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B6DFB71DA25DF6003BBE54 /* PatientService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		549567D81DA23C78001C1BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549567B31DA23C77001C1BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 549567BA1DA23C77001C1BE6;
+			remoteInfo = ToddsSyndromeApp;
+		};
+		549567E31DA23C78001C1BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549567B31DA23C77001C1BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 549567BA1DA23C77001C1BE6;
+			remoteInfo = ToddsSyndromeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		549567BB1DA23C77001C1BE6 /* ToddsSyndromeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddsSyndromeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		549567BF1DA23C77001C1BE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		549567C11DA23C77001C1BE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		549567C21DA23C77001C1BE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		549567C81DA23C77001C1BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		549567CB1DA23C77001C1BE6 /* ToddsSyndromeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToddsSyndromeApp.xcdatamodel; sourceTree = "<group>"; };
+		549567CD1DA23C77001C1BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		549567D01DA23C77001C1BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		549567D21DA23C77001C1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549567D71DA23C78001C1BE6 /* ToddsSyndromeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToddsSyndromeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		549567DB1DA23C78001C1BE6 /* ToddsSyndromeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToddsSyndromeAppTests.m; sourceTree = "<group>"; };
+		549567DD1DA23C78001C1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549567E21DA23C78001C1BE6 /* ToddsSyndromeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToddsSyndromeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		549567E61DA23C78001C1BE6 /* ToddsSyndromeAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToddsSyndromeAppUITests.m; sourceTree = "<group>"; };
+		549567E81DA23C78001C1BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549567F51DA23E53001C1BE6 /* PatientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientsViewController.h; sourceTree = "<group>"; };
+		549567F61DA23E53001C1BE6 /* PatientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientsViewController.m; sourceTree = "<group>"; };
+		549567FA1DA24631001C1BE6 /* PatientDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientDetailsViewController.h; sourceTree = "<group>"; };
+		549567FB1DA24631001C1BE6 /* PatientDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientDetailsViewController.m; sourceTree = "<group>"; };
+		54B6DFB01DA250F3003BBE54 /* Patient+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Patient+CoreDataProperties.h"; sourceTree = "<group>"; };
+		54B6DFB11DA250F3003BBE54 /* Patient+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Patient+CoreDataProperties.m"; sourceTree = "<group>"; };
+		54B6DFB21DA250F3003BBE54 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		54B6DFB31DA250F3003BBE54 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		54B6DFB61DA25DF6003BBE54 /* PatientService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientService.h; sourceTree = "<group>"; };
+		54B6DFB71DA25DF6003BBE54 /* PatientService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		549567B81DA23C77001C1BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549567D41DA23C78001C1BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549567DF1DA23C78001C1BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		549567B21DA23C77001C1BE6 = {
+			isa = PBXGroup;
+			children = (
+				549567BD1DA23C77001C1BE6 /* ToddsSyndromeApp */,
+				549567DA1DA23C78001C1BE6 /* ToddsSyndromeAppTests */,
+				549567E51DA23C78001C1BE6 /* ToddsSyndromeAppUITests */,
+				549567BC1DA23C77001C1BE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		549567BC1DA23C77001C1BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				549567BB1DA23C77001C1BE6 /* ToddsSyndromeApp.app */,
+				549567D71DA23C78001C1BE6 /* ToddsSyndromeAppTests.xctest */,
+				549567E21DA23C78001C1BE6 /* ToddsSyndromeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		549567BD1DA23C77001C1BE6 /* ToddsSyndromeApp */ = {
+			isa = PBXGroup;
+			children = (
+				54B6DFBA1DA2A278003BBE54 /* Storyboards */,
+				54B6DFB91DA25DFB003BBE54 /* Service */,
+				54B6DFAF1DA24DD7003BBE54 /* Models */,
+				549567F41DA23E1C001C1BE6 /* ViewControllers */,
+				549567CD1DA23C77001C1BE6 /* Assets.xcassets */,
+				549567CA1DA23C77001C1BE6 /* ToddsSyndromeApp.xcdatamodeld */,
+				549567BE1DA23C77001C1BE6 /* Supporting Files */,
+			);
+			path = ToddsSyndromeApp;
+			sourceTree = "<group>";
+		};
+		549567BE1DA23C77001C1BE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				549567D21DA23C77001C1BE6 /* Info.plist */,
+				549567BF1DA23C77001C1BE6 /* main.m */,
+				549567C11DA23C77001C1BE6 /* AppDelegate.h */,
+				549567C21DA23C77001C1BE6 /* AppDelegate.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		549567DA1DA23C78001C1BE6 /* ToddsSyndromeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				549567DB1DA23C78001C1BE6 /* ToddsSyndromeAppTests.m */,
+				549567DD1DA23C78001C1BE6 /* Info.plist */,
+			);
+			path = ToddsSyndromeAppTests;
+			sourceTree = "<group>";
+		};
+		549567E51DA23C78001C1BE6 /* ToddsSyndromeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				549567E61DA23C78001C1BE6 /* ToddsSyndromeAppUITests.m */,
+				549567E81DA23C78001C1BE6 /* Info.plist */,
+			);
+			path = ToddsSyndromeAppUITests;
+			sourceTree = "<group>";
+		};
+		549567F41DA23E1C001C1BE6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				549567F51DA23E53001C1BE6 /* PatientsViewController.h */,
+				549567F61DA23E53001C1BE6 /* PatientsViewController.m */,
+				549567FA1DA24631001C1BE6 /* PatientDetailsViewController.h */,
+				549567FB1DA24631001C1BE6 /* PatientDetailsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		54B6DFAF1DA24DD7003BBE54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54B6DFB01DA250F3003BBE54 /* Patient+CoreDataProperties.h */,
+				54B6DFB11DA250F3003BBE54 /* Patient+CoreDataProperties.m */,
+				54B6DFB21DA250F3003BBE54 /* Patient.h */,
+				54B6DFB31DA250F3003BBE54 /* Patient.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		54B6DFB91DA25DFB003BBE54 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				54B6DFB61DA25DF6003BBE54 /* PatientService.h */,
+				54B6DFB71DA25DF6003BBE54 /* PatientService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		54B6DFBA1DA2A278003BBE54 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				549567C71DA23C77001C1BE6 /* Main.storyboard */,
+				549567CF1DA23C77001C1BE6 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		549567BA1DA23C77001C1BE6 /* ToddsSyndromeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549567EB1DA23C78001C1BE6 /* Build configuration list for PBXNativeTarget "ToddsSyndromeApp" */;
+			buildPhases = (
+				549567B71DA23C77001C1BE6 /* Sources */,
+				549567B81DA23C77001C1BE6 /* Frameworks */,
+				549567B91DA23C77001C1BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToddsSyndromeApp;
+			productName = ToddsSyndromeApp;
+			productReference = 549567BB1DA23C77001C1BE6 /* ToddsSyndromeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		549567D61DA23C78001C1BE6 /* ToddsSyndromeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549567EE1DA23C78001C1BE6 /* Build configuration list for PBXNativeTarget "ToddsSyndromeAppTests" */;
+			buildPhases = (
+				549567D31DA23C78001C1BE6 /* Sources */,
+				549567D41DA23C78001C1BE6 /* Frameworks */,
+				549567D51DA23C78001C1BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				549567D91DA23C78001C1BE6 /* PBXTargetDependency */,
+			);
+			name = ToddsSyndromeAppTests;
+			productName = ToddsSyndromeAppTests;
+			productReference = 549567D71DA23C78001C1BE6 /* ToddsSyndromeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		549567E11DA23C78001C1BE6 /* ToddsSyndromeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549567F11DA23C78001C1BE6 /* Build configuration list for PBXNativeTarget "ToddsSyndromeAppUITests" */;
+			buildPhases = (
+				549567DE1DA23C78001C1BE6 /* Sources */,
+				549567DF1DA23C78001C1BE6 /* Frameworks */,
+				549567E01DA23C78001C1BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				549567E41DA23C78001C1BE6 /* PBXTargetDependency */,
+			);
+			name = ToddsSyndromeAppUITests;
+			productName = ToddsSyndromeAppUITests;
+			productReference = 549567E21DA23C78001C1BE6 /* ToddsSyndromeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		549567B31DA23C77001C1BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Marija Djuric";
+				TargetAttributes = {
+					549567BA1DA23C77001C1BE6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					549567D61DA23C78001C1BE6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 549567BA1DA23C77001C1BE6;
+					};
+					549567E11DA23C78001C1BE6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 549567BA1DA23C77001C1BE6;
+					};
+				};
+			};
+			buildConfigurationList = 549567B61DA23C77001C1BE6 /* Build configuration list for PBXProject "ToddsSyndromeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 549567B21DA23C77001C1BE6;
+			productRefGroup = 549567BC1DA23C77001C1BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				549567BA1DA23C77001C1BE6 /* ToddsSyndromeApp */,
+				549567D61DA23C78001C1BE6 /* ToddsSyndromeAppTests */,
+				549567E11DA23C78001C1BE6 /* ToddsSyndromeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		549567B91DA23C77001C1BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549567D11DA23C77001C1BE6 /* LaunchScreen.storyboard in Resources */,
+				549567CE1DA23C77001C1BE6 /* Assets.xcassets in Resources */,
+				549567C91DA23C77001C1BE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549567D51DA23C78001C1BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549567E01DA23C78001C1BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		549567B71DA23C77001C1BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549567CC1DA23C77001C1BE6 /* ToddsSyndromeApp.xcdatamodeld in Sources */,
+				54B6DFB81DA25DF6003BBE54 /* PatientService.m in Sources */,
+				549567C31DA23C77001C1BE6 /* AppDelegate.m in Sources */,
+				54B6DFB51DA250F3003BBE54 /* Patient.m in Sources */,
+				549567F71DA23E53001C1BE6 /* PatientsViewController.m in Sources */,
+				549567C01DA23C77001C1BE6 /* main.m in Sources */,
+				549567FC1DA24631001C1BE6 /* PatientDetailsViewController.m in Sources */,
+				54B6DFB41DA250F3003BBE54 /* Patient+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549567D31DA23C78001C1BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549567DC1DA23C78001C1BE6 /* ToddsSyndromeAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549567DE1DA23C78001C1BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549567E71DA23C78001C1BE6 /* ToddsSyndromeAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		549567D91DA23C78001C1BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 549567BA1DA23C77001C1BE6 /* ToddsSyndromeApp */;
+			targetProxy = 549567D81DA23C78001C1BE6 /* PBXContainerItemProxy */;
+		};
+		549567E41DA23C78001C1BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 549567BA1DA23C77001C1BE6 /* ToddsSyndromeApp */;
+			targetProxy = 549567E31DA23C78001C1BE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		549567C71DA23C77001C1BE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549567C81DA23C77001C1BE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		549567CF1DA23C77001C1BE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549567D01DA23C77001C1BE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		549567E91DA23C78001C1BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		549567EA1DA23C78001C1BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		549567EC1DA23C78001C1BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToddsSyndromeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teknuvo.ToddsSyndromeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		549567ED1DA23C78001C1BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToddsSyndromeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teknuvo.ToddsSyndromeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		549567EF1DA23C78001C1BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ToddsSyndromeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teknuvo.ToddsSyndromeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToddsSyndromeApp.app/ToddsSyndromeApp";
+			};
+			name = Debug;
+		};
+		549567F01DA23C78001C1BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ToddsSyndromeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teknuvo.ToddsSyndromeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToddsSyndromeApp.app/ToddsSyndromeApp";
+			};
+			name = Release;
+		};
+		549567F21DA23C78001C1BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToddsSyndromeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teknuvo.ToddsSyndromeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToddsSyndromeApp;
+			};
+			name = Debug;
+		};
+		549567F31DA23C78001C1BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToddsSyndromeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teknuvo.ToddsSyndromeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToddsSyndromeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		549567B61DA23C77001C1BE6 /* Build configuration list for PBXProject "ToddsSyndromeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549567E91DA23C78001C1BE6 /* Debug */,
+				549567EA1DA23C78001C1BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549567EB1DA23C78001C1BE6 /* Build configuration list for PBXNativeTarget "ToddsSyndromeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549567EC1DA23C78001C1BE6 /* Debug */,
+				549567ED1DA23C78001C1BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549567EE1DA23C78001C1BE6 /* Build configuration list for PBXNativeTarget "ToddsSyndromeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549567EF1DA23C78001C1BE6 /* Debug */,
+				549567F01DA23C78001C1BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549567F11DA23C78001C1BE6 /* Build configuration list for PBXNativeTarget "ToddsSyndromeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549567F21DA23C78001C1BE6 /* Debug */,
+				549567F31DA23C78001C1BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		549567CA1DA23C77001C1BE6 /* ToddsSyndromeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				549567CB1DA23C77001C1BE6 /* ToddsSyndromeApp.xcdatamodel */,
+			);
+			currentVersion = 549567CB1DA23C77001C1BE6 /* ToddsSyndromeApp.xcdatamodel */;
+			path = ToddsSyndromeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 549567B31DA23C77001C1BE6 /* Project object */;
+}
